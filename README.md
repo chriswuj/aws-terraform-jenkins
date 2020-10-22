@@ -1,6 +1,6 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
-# aws-terraform-jenkins
+# terraform-aws-jenkins
 This project creates a HTTPS Jenkins service on AWS using terraform, the reason a ELB (elastic load balancer) is used here is because it allows us to use the SSL cert issued by AWS so it is easier to manage in long run.
 
 # Setup python virtual environment
